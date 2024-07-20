@@ -1,0 +1,146 @@
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.heading{
+    font-weight: bold;
+    font-size: 30px;
+}
+.main-nav span a{
+    margin-right: 45px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-btn-1{
+    font-size: larger;
+    border: red solid;
+    border-radius: 10px;
+
+}
+.nav-btn-2{
+    background-color: rgb(185, 255, 127);
+    color: black;
+    font-size: large;
+}
+.articale0{
+    
+    background-image: linear-gradient(to right,red , green 30%,yellow);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(14, 11, 11);
+    font-weight: bolder;
+    }
+    .content{
+        background-color: aqua;
+        border: green solid 4px;
+        border-radius: 10px;
+        width: 350px;
+        margin: 10px;
+        padding:5px;
+    }
+    .contener{
+        display: flex;
+
+    }
+    .content1{
+        margin-left: 360px;
+    }
+    .section1{
+        background-color: aquamarine;
+        border: 2px black solid;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+    .articale1{
+        background-image: linear-gradient(to right,red,green 70%, rgb(194, 13, 13));
+        text-align: center;
+        text-decoration: underline;
+        font-size: 20px;
+        color: rgb(14, 11, 11);
+        font-weight: bolder;
+    }
+    .section2{
+        display: flex;
+        justify-content: space-evenly;
+        background-image: radial-gradient(blue, aqua,green );
+        text-align: center;
+        
+      }
+      .perfomer{
+        background-color: rgb(226, 187, 11);
+        border: 2px black solid;
+        border-radius: 2px;
+        width: 170px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+
+
+      }
+      main{
+        border: 2px solid black;
+        margin: 5px;
+
+      }
+      .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 0.5fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "col1 col2 col3 col4"
+                              "col5 col5 col5 col4";
+         text-align: center;
+         column-gap: 10px;
+         row-gap: 10px;
+    grid-area: col1;
+    color: white;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    
+  }
+  .grid-1{
+    grid-area: col1;
+    background-color: aquamarine;
+    color: white;
+  }
+  .grid-2{
+    grid-area: col2;
+    background-color: green;
+    color: white;
+  }
+  .grid-3{
+    grid-area: col3;
+    background-color: rgb(188, 228, 94);
+    
+  }
+  .grid-4{
+    grid-area: col4;
+    background: black;
+
+  }
+  .grid-5{
+    grid-area: col5;
+    background-color: orangered;
+  }
+  .article2{
+    background-color: orangered;
+    text-align:center;
+    font-size: 20px;
+    color: rgb(14, 11, 11);
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+  .article3{
+    background-color: aqua;
+    text-align: center;
+   margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(14, 11, 11);
+    font-weight: bolder;
+
+  }
+
+
